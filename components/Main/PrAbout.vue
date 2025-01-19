@@ -79,12 +79,17 @@
         padding-top: 60px;
 
         &__title {
-            font-size: 46px;
-            line-height: 46px;
+            font-size: 30px;
+            line-height: 30px;
         }
 
         &__banner {
             padding: 40px 20px;
+        }
+
+        &__btn {
+            padding: 10px 25px;
+            font-size: 18px;
         }
     }
 
