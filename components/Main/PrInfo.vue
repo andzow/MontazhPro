@@ -118,8 +118,8 @@ const infoArray = ref([
 
     @media(max-width: 600px) {
         &__title {
-            font-size: 36px;
-            line-height: 36px;
+            font-size: 26px;
+            line-height: 26px;
             margin-bottom: 20px;
         }
     }
