@@ -144,5 +144,17 @@ onMounted(() => {
             margin-bottom: 15px;
         }
     }
+
+    @media(max-width: 340px) {
+        &__title {
+            font-size: 28px;
+            line-height: 28px;
+            margin-bottom: 15px;
+        }
+
+        &__text {
+            font-size: 18px;
+        }
+    }
 }
 </style>

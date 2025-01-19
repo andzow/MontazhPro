@@ -113,5 +113,12 @@
             grid-template-columns: repeat(1, 1fr);
         }
     }
+
+    @media(max-width: 500px) {
+        &__title {
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
 }
 </style>

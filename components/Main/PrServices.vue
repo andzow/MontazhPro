@@ -186,8 +186,8 @@ const services = ref([
         }
 
         &__title {
-            font-size: 46px;
-            line-height: 46px;
+            font-size: 40px;
+            line-height: 40px;
         }
     }
 }

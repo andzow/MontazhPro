@@ -87,5 +87,18 @@
             padding: 40px 20px;
         }
     }
+
+    @media(max-width: 340px) {
+        &__title {
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        &__btn {
+            padding: 10px 25px;
+            font-size: 18px;
+        }
+    }
 }
 </style>
