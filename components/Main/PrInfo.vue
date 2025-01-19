@@ -71,7 +71,6 @@ const infoArray = ref([
         line-height: 56px;
         margin-bottom: 40px;
         font-weight: 800;
-        font-family: "Poppins", serif;
     }
 
     &__text {

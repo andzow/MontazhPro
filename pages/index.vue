@@ -1,7 +1,7 @@
 <template>
   <div>
     <MainPrMain/>
-    <!-- <MainPrAbout/> -->
+    <MainPrAbout/>
     <MainPrInfo/>
     <MainPrServices/>
     <MainPrBanner/>
