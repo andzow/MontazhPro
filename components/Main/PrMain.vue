@@ -14,7 +14,8 @@ onMounted(() => {
         <div class="main__container">
             <div class="main__position">
                 <h1 class="main__title" data-aos="zoom-out-up" data-aos-delay="500">Сварочные, монтажные и электромонтажные услуги</h1>
-                <p class="main__text" data-aos="zoom-out-up" data-aos-delay="700">Мы гарантируем высокое качество и безопасность выполнения всех работ в соответствии с действующими стандартами и требованиями. Позвоните и мы оперативно решим все ваши задачи.</p>
+                <p class="main__text" data-aos="zoom-out-up" data-aos-delay="700">Мы гарантируем высокое качество и безопасность выполнения всех работ в соответствии с действующими стандартами и требованиями.</p>
+                <p class="main__text main__text_special">Позвоните и мы оперативно решим все ваши задачи.</p>
                 <a class="main__btn" data-aos="zoom-out-up" data-aos-delay="900" href="tel:+79642920280">Позвонить сейчас</a>
             </div>
             <div class="main__image">
@@ -142,6 +143,14 @@ onMounted(() => {
             font-size: 35px;
             line-height: 35px;
             margin-bottom: 15px;
+        }
+
+        &__text_special {
+            display: none;
+        }
+
+        &__slogan {
+            display: none;
         }
     }
 
