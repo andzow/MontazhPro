@@ -4,4 +4,15 @@ export default defineNuxtConfig({
   css: ["~/assets/style/main.css"],
   devtools: { enabled: false },
   ssr: true,
+  app: {
+    head: {
+      link: [
+        {
+          rel: "icon",
+          type: "image/x-icon",
+          href: "/UI/logo.svg",
+        },
+      ],
+    },
+  },
 })
