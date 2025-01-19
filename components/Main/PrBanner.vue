@@ -80,20 +80,12 @@
         padding-top: 60px;
 
         &__title {
-            font-size: 40px;
-            line-height: 40px;
+            font-size: 30px;
+            line-height: 30px;
         }
 
         &__banner {
             padding: 40px 20px;
-        }
-    }
-
-    @media(max-width: 340px) {
-        &__title {
-            font-size: 30px;
-            line-height: 30px;
-            margin-bottom: 20px;
         }
 
         &__btn {
