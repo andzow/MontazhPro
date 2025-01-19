@@ -1,0 +1,10 @@
+<template>
+  <div>
+    <MainPrMain/>
+    <MainPrAbout/>
+    <MainPrInfo/>
+    <MainPrServices/>
+    <MainPrBanner/>
+    <MainPrGallery/>
+  </div>
+</template>
